@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.container {
+    padding-top: 50px;
+}
+
+
+.w {
+    margin-right: 50px;
+}
+
+.women,
+.men {
+    width: 270px;
+    height: 74px;
+    display: block;
+    position: absolute;
+    content: "";
+    background: white;
+    bottom: 30px;
+    left: 60px;
+    right: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(108, 112, 112, 0.52);
+}
+
+form {
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: gray;
+}
+
+input {
+    resize: none;
+    color: rgba(108, 112, 112, 0.13);
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(108, 112, 112, 0.13);
+    padding: 30px;
+}
+
+input::placeholder {
+    color: rgba(108, 112, 112, 0.52);
+    font-size: 23px;
+}
+
+button {
+    padding: 10px 70px;
+    background: #fff;
+}
+
+button:hover {
+    background-color: #999999;
+}
+
+h3 {
+    font-size: 30px;
+}
